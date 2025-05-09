@@ -23,6 +23,10 @@ int main()
         cout << "Du lieu nhap khong hop le!" << endl;
         return 0;
      }
+     if( num<=1){
+        cout << "So " << num << " khong la so nguyen to." << endl;
+        return 0;
+    }
     checkPrime(num);
     
 
